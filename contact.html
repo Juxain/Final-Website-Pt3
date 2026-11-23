@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<!-- 
+		Final Project CMIS 410
+		Author: Jason Nguyen
+		Date: November 12, 2026
+	-->
+
+<meta http-equiv = "Content-Type" content = "text/html; charset=utf-8" />
+<title>Whisker Wellness Grooming</title>
+   <link href="styles.css" rel="stylesheet" />
+   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Nunito:wght@400;700&family=Patrick+Hand+SC&display=swap" rel="stylesheet"/>
+
+</head>
+
+<body>
+
+<div id = "container"> 
+
+<header> 
+
+<a href="index.html"><img src="images/WWGlogo.png" alt="Whisker Wellness Grooming cat logo"/></a>
+<h1> - - - WHISKER WELLNESS GROOMING - - -</h1>
+
+</header> 
+
+<!-- navigation bar -->
+
+<nav> 
+	<ul>
+	  <li><a href = "index.html">HOME</a></li>
+	  <li><a href = "services.html">SERVICES</a></li>
+	  <li><a href = "contact.html">CONTACT US</a></li>
+	  <li><a href = "reviews.html">REVIEWS</a></li>
+	</ul>
+</nav> 
+ 
+<!-- book an appointment section -->
+ 
+<article id = "main"> 
+
+<h2>Book an Appointment Today</h2>
+
+<form action="mailto:ABC123@gmail.com" method="post" enctype="text/plain">
+	
+	<label for="first">Name*</label>
+	<div class="form-row">
+		<input type="text" id="first" name="first" placeholder="First name" required />
+		<input type="text" id="last" name="last" placeholder="Last name" required />
+	</div>
+	
+	<label for="email">Email Address*</label>
+	<input type="email" id="email" name="email" required />
+	
+	<label for="phone">Phone Number</label>
+	<input type="tel" id="phone" name="phone" placeholder="123 123 1234" />
+	
+	<label for="commBox">Tell Us More About Your Cat</label>
+	<textarea name="custExp" id="commBox" placeholder="Name, breed, age, and anything we should know"></textarea>
+	
+	
+	<label for="service">Service</label>
+	<select id="service" name="service">
+		<option>Bath & Brush</option>
+		<option>Nail Trim / Ear Cleaning</option>
+		<option>Coat Care / De-matting</option>
+		<option>Full Groom</option>
+	</select>
+
+	<button type="submit">Request appointment</button>
+
+</form>
+
+<p><em>*Field required to be filled</em></p>
+
+</article>
+
+<!-- shop hours -->
+
+<aside id="hours"> 
+
+<h2>Shop Hours</h2>
+
+<dl>
+	<div>
+		<dt>Monday:</dt>
+		<dd>7:00 am - 7:00 pm</dd>
+	</div>	
+		
+	<div>
+		<dt>Tuesday:</dt>
+		<dd>7:00 am - 7:00 pm</dd>
+	</div>	
+		
+	<div>
+		<dt>Wednesday:</dt>
+		<dd>7:00 am - 5:00 pm</dd>
+	</div>	
+		
+	<div>
+		<dt>Thursday:</dt>
+		<dd>7:00 am - 7:00 pm</dd>
+	</div>	
+		
+	<div>
+		<dt>Friday:</dt>
+		<dd>7:00 am - 7:00 pm</dd>
+	</div>	
+		
+	<div>
+		<dt>Saturday:</dt>
+		<dd>9:00 am - 5:00 pm</dd>
+	</div>	
+		
+	<div>
+		<dt>Sunday:</dt>
+		<dd>Closed</dd>
+	</div>	
+	
+</dl>
+
+<br>
+<p><em>*Holidays may affect hours. Call ahead to verify.</em></p>
+
+</aside>   
+
+<!-- footer -->
+
+<footer> 
+
+	EMAIL: <a href="mailto:ABC123@gmail.com">ABC123@gmail.com</a> |
+	PHONE: <a href="tel:+1233214321">(123)-321-4321 </a> |
+	<a href ="https://facebook.com" target="_blank">Facebook</a> | <a href = "https://instagram.com" target="_blank">Instagram</a>
+
+</footer>  
+
+</div> <!-- end container -->
+
+</body>
+</html>
